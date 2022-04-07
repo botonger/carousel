@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(66, 129, 77);
+}
+*{
+    padding: 0;
+    margin:0;
+}
+#container{
+    margin: 100px auto;
+    width: 300px;
+    height: 150px;    
+}
+
+#photo-box{
+    display: flex;
+    transition: all 2s ease-in-out;
+    overflow: hidden;
+}
+
+.photo{
+    min-width: 300px;
+    height: 400px;
+    transition: all 5s cubic-bezier(0.215, 0.610, 0.355, 1); 
+}
+.photo:nth-child(1){
+    margin-left: -300px; 
+}
+.photo img{
+    width: 100%;
+
+}
